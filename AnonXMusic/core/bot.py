@@ -1,8 +1,8 @@
 from pyrogram import Client, errors
-from pyrogram.enums import ChatMemberStatus, ParseMode
+from pyrogram.types import ChatMemberStatus
+from pyrogram.enums import ParseMode
 
 import config
-
 from ..logging import LOGGER
 
 
